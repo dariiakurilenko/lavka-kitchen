@@ -10,7 +10,7 @@
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postgresql/postgresql-original.svg" title="PostgreSQL" alt="PostgreSQL" width="40" height="40"/>&nbsp;
 <br>
 <br>
-Also: <b>ShadCN, NextAuth, Zustand, Resend<b>
+Also: <b>ShadCN, NextAuth, Zustand, Resend, Lucide<b>
 <hr>
 <em>currently in process ... </em>
 
