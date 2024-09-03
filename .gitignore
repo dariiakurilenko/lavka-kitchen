@@ -29,7 +29,7 @@ yarn-error.log*
 
 # local env files 
 .env*.local 
-.env # <-- ваш файл .env должен быть исключен! 
+.env 
  
 # vercel 
 .vercel 
