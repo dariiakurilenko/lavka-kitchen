@@ -5,19 +5,27 @@ import Image from 'next/image'
 import {Button} from '../ui'
 import { ArrowRight, CircleUser, ShoppingCart, User } from 'lucide-react';
 import {Props} from './interfaces';
+import Link from 'next/link';
+import { SearchInput } from './Search-input';
+
 
 export const Header: React.FC<Props> = ({className}) => {
     return (
         <header className={cn('border border-b', className)}>
             <Container className='flex items-center justify-between py-8'>
-                <div className='flex items-center gap-4'>
-                    <Image src='/logo.png' alt='Logo' width={45} height={45} />
-                    <div>
-                        <h1 className='text-2xl uppercase font-black'>Лавка kitchen</h1>
-                        <p className='text-sm text-gray-400'>Свежий взгляд на вкусную еду</p>
+                <Link href='/'>
+                    <div className='flex items-center gap-4'>
+                        <Image src='/logo.png' alt='Logo' width={45} height={45} />
+                        <div>
+                            <h1 className='text-2xl uppercase font-black'>Лавка kitchen</h1>
+                            <p className='text-sm text-gray-400'>Свежий взгляд на вкусную еду</p>
+                        </div>
                     </div>
-                </div>
+                </Link>
 
+                <div className='mx-10 flex-1'>
+                    <SearchInput />
+                </div>
                 <div className='flex gap-3'>
                     <Button variant='outline' className='flex items-center gap-1'>
                         <User size={16} />

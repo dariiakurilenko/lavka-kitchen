@@ -7,3 +7,4 @@ export { TopBar } from './TopBar';
 export {Filters} from './Filters';
 export {FilterCheckbox} from './FilteredCheckbox'
 export {ProductCard} from './ProductCard'
+export { SearchInput } from './Search-input';
