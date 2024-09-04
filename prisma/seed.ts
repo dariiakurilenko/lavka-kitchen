@@ -43,7 +43,7 @@ async function up(){
 
     const salad1 = await prisma.product.create({
         data: {
-            name: 'Салат с курицей и сельдереем',
+            name: 'салат',
             imageUrl: '	https://yastatic.net/avatars/get-grocery-goods/278…da1ff746-7090-4009-9299-a489f3f03604/928x928-webp',
             categoryId: 1,
             ingredients: {
